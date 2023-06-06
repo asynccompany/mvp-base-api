@@ -28,9 +28,7 @@ jobs:
             test
           # deps is used by renovate for its PRs
           scopes: |
-            mobile
-            server
-            contracts
+            api
           # we allow "cross package" PRs with no scope
           requireScope: false
           # ensure that the subject is lower-case first
